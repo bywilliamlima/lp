@@ -33,23 +33,31 @@ document.addEventListener('DOMContentLoaded', () => {
 	}
 
 	// Number counter START
-	function animateCounter(element, targetValue, duration) {
-		jQuery({ count: jQuery(element).text() }).animate(
-			{
-				count: targetValue
-			},
-			{
-				duration: duration,
-				easing: 'linear',
-				step: function () {
-					jQuery(element).text(Math.floor(this.count));
-				},
-				complete: function () {
-					jQuery(element).text(targetValue);
-				},
-			}
-		);
-	}
+	function animateCounter(element, targetValue, duration, suffix = '') {
+    jQuery({ count: 0 }).animate(
+        {
+            count: targetValue
+        },
+        {
+            duration: duration,
+            easing: 'linear',
+            step: function (now) {
+                jQuery(element).text(Math.floor(now) + suffix);
+            },
+            complete: function () {
+                jQuery(element).text(targetValue + suffix);
+            }
+        }
+    );
+}
+
+jQuery('.num-js').each(function() {
+    const targetValue = jQuery(this).data('count');
+    const suffix = jQuery(this).data('suffix') || '';  
+    animateCounter(this, targetValue, 2000, suffix);
+});
+
+
 
 	function isElementInViewport(elem) {
 		if (!elem) return false;

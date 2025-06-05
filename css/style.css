@@ -6,9 +6,7 @@ html, body {
 	overflow-x: hidden;
 }
 
-:root {
-	mypa: #83BB5A;
-  }
+
 
 body {
 	font-family: 'Montserrat';
@@ -104,12 +102,12 @@ textarea::placeholder {
 	color: #fff;
 }
 .def-btn:hover {
-	background-color: #BB2440;
+	background-color: #83BB5A;
 }
 
 /* Header START */
 .header-top {
-	background-color: #d3fcb6;
+	background-color: #e4e4e4;
 	color: #fff;
 	padding: 18px 0 55px 0;
 	font-size: 14px;
