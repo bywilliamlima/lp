@@ -61,7 +61,7 @@ textarea::placeholder {
 	position: absolute;
 	top: 30px;
 	left: calc(-100% - 25px);
-	background-color: #13db0c;
+	background-color: #39753c;
 }
 .center-title {
 	font-size: 42px;
@@ -74,7 +74,7 @@ textarea::placeholder {
 	content: '';
 	height: 1px;
 	width: 70px;
-	background-color: #83BB5A;
+	background-color: #39753c;
 	display: block;
 	margin: 15px auto 0 auto;
 }
@@ -102,12 +102,12 @@ textarea::placeholder {
 	color: #fff;
 }
 .def-btn:hover {
-	background-color: #83BB5A;
+	background-color: #39753c;
 }
 
 /* Header START */
 .header-top {
-	background-color: #e4e4e4;
+	background-color: #242424;
 	color: #fff;
 	padding: 18px 0 55px 0;
 	font-size: 14px;
@@ -152,12 +152,12 @@ textarea::placeholder {
 }
 .header-bottom-row {
 	display: flex;
-	background-color: #83BB5A;
+	background-color: #39753c;
 	color: #fff;
 	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.11);
 }
 .header-logo {
-	background-color: #7a7a7a;
+	background-color: #ffffff;
 	padding: 15px 60px 15px 40px;
 	display: flex;
 	align-items: center;
@@ -217,7 +217,7 @@ textarea::placeholder {
 	transform: none;
 }
 .go-up a {
-	background-color: #83BB5A;
+	background-color: #39753c;
 	width: 60px;
 	height: 60px;
 	display: flex;
@@ -281,7 +281,7 @@ textarea::placeholder {
 .swiper-button-next,
 .swiper-button-prev {
 	color: #fff;
-	background-color: #83BB5A;
+	background-color: #39753c;
 	width: 60px;
 	height: 60px;
 	transition: transform 0.3s ease;
@@ -334,7 +334,7 @@ textarea::placeholder {
 	opacity: 1;
 }
 .swiper-pagination-bullet-active {
-	background-color: #83BB5A;
+	background-color: #39753c;
 }
 .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, 
 .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
@@ -370,10 +370,15 @@ textarea::placeholder {
 
 /* Numbers START */
 .s-numbers {
-	background-color: #18353E;
+	background-color: #242424;
 	color: #fff;
 	padding: 72px 0;
 }
+
+.text-number{
+color: white;
+}
+
 .s-numbers .def-title::before {
 	background-color: #fff;
 }
@@ -472,7 +477,7 @@ textarea::placeholder {
 	display: block;
 	height: 1px;
 	width: 70px;
-	background-color: #83BB5A;
+	background-color: #39753c;
 	margin: 20px auto 0 auto;
 }
 .modal-form input {
@@ -487,7 +492,7 @@ textarea::placeholder {
 	margin-bottom: 24px;
 }
 .modal-form .form-button {
-	background-color: #83BB5A;
+	background-color: #39753c;
 	color: #fff;
 	max-width: 285px;
 	width: 100%;
@@ -501,7 +506,7 @@ textarea::placeholder {
 	transition: background-color 0.35s ease;
 }
 .modal-form .form-button:hover {
-	background-color: #83BB5A;
+	background-color: #39753c;
 }
 
 
@@ -776,7 +781,7 @@ textarea::placeholder {
 	transition: 0.5s ease;
 }
 .gallery-border {
-	border: 1px solid #83BB5A;
+	border: 1px solid #39753c;
 	width: calc(100% - 35px);
 	height: calc(100% - 35px);
 	position: absolute;
@@ -990,7 +995,7 @@ textarea::placeholder {
 	content: '';
 	width: 100%;
 	height: 10px;
-	background-color: #83BB5A;
+	background-color: #39753c;
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -1020,7 +1025,7 @@ textarea::placeholder {
 
 /* Footer START */
 .site-footer {
-	background-color: #1C2835;
+	background-color: #242424;
 	color: #fff;
 	font-size: 14px;
 }
@@ -1225,7 +1230,7 @@ textarea::placeholder {
 		padding-bottom: 22px;
 		margin-bottom: 30px;
 		border-right: none;
-		border-bottom: 1px solid #83BB5A;
+		border-bottom: 1px solid #39753c;
 		width: auto;
 	}
 	.numbers-right {
@@ -1386,7 +1391,7 @@ textarea::placeholder {
 	/* Header 768 START */
 	.header-top {
 		padding: 0;
-		border-bottom: 1px solid #83BB5A;
+		border-bottom: 1px solid #39753c;
 	}
 	.header-desc,
 	.header-right,

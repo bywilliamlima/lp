@@ -42,10 +42,10 @@ document.addEventListener('DOMContentLoaded', () => {
             duration: duration,
             easing: 'linear',
             step: function (now) {
-                jQuery(element).text(Math.floor(now) + suffix);
+                jQuery(element).text("+"+ Math.floor(now) + suffix);
             },
             complete: function () {
-                jQuery(element).text(targetValue + suffix);
+                jQuery(element).text("+"+ targetValue + suffix);
             }
         }
     );
